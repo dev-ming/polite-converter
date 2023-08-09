@@ -7,7 +7,7 @@ function App() {
 
   const convertText = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/convert', {
+      const response = await fetch('https://port-0-polite-converter-server-3prof2lll3g7izj.sel3.cloudtype.app/api/convert', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
