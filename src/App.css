@@ -1,16 +1,6 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    font-family: 'omyu_pretty';
 }
 
 .App-header {
@@ -35,4 +25,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Btn {
+    background-color: pink;
+    border: none;
+    color: #3b3b3b;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 5px;
+    font-family: "omyu_pretty";
+}
+
+.Input {
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #3b3b3b;
+}
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
 }

@@ -23,14 +23,16 @@ function App() {
 
   return (
       <div className="App">
-        <h2>문장을 공손하게 변환하세요</h2>
+        <h2>공손하게 말해요</h2>
+          <p style={{fontSize:"1.2rem"}}>❤이쁘게❣💝꾸민다고💗💜이쁜말이✨🎀아니에요🎉</p>
         <input
+            className="Input"
             type="text"
             value={text}
             onChange={e => setText(e.target.value)}
         />
-        <button onClick={convertText}>변환하기</button>
-        <p>결과: {result}</p>
+        <button className="Btn" onClick={convertText}>변환하기</button>
+        <p style={{fontSize:"1.5rem"}}>결과: {result}</p>
       </div>
   );
 }
