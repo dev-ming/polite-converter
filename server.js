@@ -53,7 +53,7 @@ app.post('/api/convert', async (req, res) => {
 //             max_tokens: 50
 //         }, {
 //             headers: {
-//                 'Authorization': `Bearer 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`
+//                 'Authorization': `Bearer ${process.env.OPENAI_API_KEY}`,
 //             }
 //         });
 //         console.log('response:', response.data);
