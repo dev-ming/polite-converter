@@ -23,6 +23,7 @@ function App() {
 
   return (
       <div className="App">
+        <div className="title">Be Polite</div>
         <h2>공손하게 말해요</h2>
           <p style={{fontSize:"1.2rem"}}>❤이쁘게❣💝꾸민다고💗💜이쁜말이✨🎀아니에요🎉</p>
         <input
